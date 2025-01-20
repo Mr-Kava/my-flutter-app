@@ -98,8 +98,7 @@ class _NotesListState extends State<NotesList> {
                     margin: const EdgeInsets.all(8.0),
                     decoration: BoxDecoration(
                       color: isDarkMode ? Color(0xFF4E586E) : Colors.grey[200]!,
-                      borderRadius:
-                          BorderRadius.circular(8.0), // Скругление углов
+                      borderRadius: BorderRadius.circular(8.0),
                       border: Border.all(
                         color: Color(0xFF80CBC4),
                         width: 1.0,
